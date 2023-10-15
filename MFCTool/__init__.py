@@ -14,6 +14,9 @@ import os, re, sys
 from codecs import decode
 from collections import OrderedDict, defaultdict
 from pathlib import Path
+from warnings import warn
+
+warn("We have moved from M$ GitHub to https://codeberg.org/KFmts/MFCTool.py , read why on https://codeberg.org/KOLANICH/Fuck-GuanTEEnomo .")
 
 from _io import BytesIO, _IOBase
 
